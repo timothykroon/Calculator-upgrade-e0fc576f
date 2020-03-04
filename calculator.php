@@ -4,21 +4,21 @@ echo "welke operatie wil je uitvoeren? (+, -,%)" . PHP_EOL;
 $ding = readline();
 
 if($ding == '*') {
-    exit("'" . $ding . "'" . "dit is geen geldige operatie");
+    exit("'" . $ding . "' dit is geen geldige operatie");
 }
 
 echo "Eerste getal?" . PHP_EOL;
 $eersteGetal = readline();
-if(is_numeric($eersteGetal)){
+if(is_numeric($eersteGetal)) {
 }else{
-    exit("'" . $eersteGetal . "'" . "is geen getal");
+    exit("'" . $eersteGetal . "' is geen getal");
 }
 
 echo "Tweede Getal" . PHP_EOL;
 $tweedeGetal = readline();
-if(is_numeric($tweedeGetal)){
+if(is_numeric($tweedeGetal)) {
 }else{
-    exit("'" . $tweedeGetal . "'" . "is geen getal");
+    exit("'" . $tweedeGetal . "' is geen getal");
 }
 
 if($ding == '%') {
